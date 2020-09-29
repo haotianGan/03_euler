@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+//   9/9/2020
+//   Assignment 3
+//   Haotian Gan
+//   Assignment Title: 03_euler
+
 unsigned long sumSquareDifference(unsigned long upTo){
     return (((upTo)*(upTo+1))/2)*(((upTo)*(upTo+1))/2) - ((upTo)*(upTo+1)*(2*upTo+1))/6 ;
 }
