@@ -15,9 +15,6 @@ unsigned long allTheMultiplesUnderN(unsigned long n){
     unsigned long sumOfMultiplesOf3 = 3 * (n/3)*((n/3+1))/2;
     unsigned long sumOfMultiplesOf5 = 5 * (n/5)*((n/5+1))/2;
     unsigned long sumOfMultiplesOf15 = 15 * (n/15)*(n/15+1)/2;
-    printf("%lu\n", sumOfMultiplesOf15);
-    printf("%lu\n", sumOfMultiplesOf5);
-    printf("%lu\n", sumOfMultiplesOf3);
     return sumOfMultiplesOf3 + sumOfMultiplesOf5 - sumOfMultiplesOf15;
 }
 unsigned long smallestMultiple(long n){
